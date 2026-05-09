@@ -15,7 +15,6 @@ import carouselImg4 from '../assets/img/carouselImg4.png';
 import carouselImg5 from '../assets/img/carouselImg5.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { useState } from "react";
 
 function Projects() {
 
@@ -39,8 +38,6 @@ function Projects() {
             githubLink: 'https://github.com/Pavan-12062000/Interview-Chatbot/',
         },
     ];
-
-    const [selectedId, setSelectedId] = useState(null);
 
     return (
         <section className="project" id="projects">

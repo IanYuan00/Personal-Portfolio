@@ -75,8 +75,8 @@ function NavBar() {
                     </Nav>
                     <div className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://github.com/IanYuan00" target='_blank'><img src={githubLogo} alt="Github" /></a>
-                            <a href="https://www.linkedin.com/in/yuan-gao-yg0522" target='_blank'><img src={linkedinLogo} alt="Linkedin" /></a>
+                            <a href="https://github.com/IanYuan00" target='_blank' rel='noreferrer'><img src={githubLogo} alt="Github" /></a>
+                            <a href="https://www.linkedin.com/in/yuan-gao-yg0522" target='_blank' rel='moreferrer'><img src={linkedinLogo} alt="Linkedin" /></a>
                             <a href="mailto:yuangao2517@gmail.com"><img src={emialIcon} alt="Email me" /></a>
                         </div>
                     </div>

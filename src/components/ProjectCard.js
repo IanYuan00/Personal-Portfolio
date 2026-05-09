@@ -69,13 +69,13 @@ function ProjectCard({ title, description, imgUrl, carouselImgs = [], modalDescr
                             </div>
                             <div className='modal-description'>
                                 <h4>Link to the Website:</h4>
-                                <a src=''>Link to be added...</a>
+                                <p>Link to be added...</p>
                             </div>
                             <div className='modal-description'>
                                 <h4>See Source Code in Github:</h4>
 
                                 <button>
-                                    <a target='_blank' href={githubLink}>
+                                    <a target='_blank' rel='noreferrer' href={githubLink}>
                                         <img style={{ height: '30px', marginRight: '10px' }} src={githubLogo} alt="Github" />
                                         Go to Github
                                     </a>
