@@ -33,6 +33,7 @@ function Banner() {
         }
 
         return () => { clearInterval(ticker) };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [control, isInview, text])
 
     const tick = () => {
