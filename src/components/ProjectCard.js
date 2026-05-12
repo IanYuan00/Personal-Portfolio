@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import "react-multi-carousel/lib/styles.css";
 import githubLogo from "../assets/img/github-mark-white.svg";
 
-function ProjectCard({ title, description, imgUrl, carouselImgs = [], modalDescription, githubLink, index, isVisible }) {
+function ProjectCard({ title, description, imgUrl, carouselImgs = [], modalDescription, githubLink, websiteURL, index, isVisible }) {
     const [showModal, setShowModal] = useState(false);
     const [carouselIndex, setCarouselIndex] = useState(0);
     const handleCardClick = async (e) => {
@@ -69,7 +69,7 @@ function ProjectCard({ title, description, imgUrl, carouselImgs = [], modalDescr
                             </div>
                             <div className='modal-description'>
                                 <h4>Link to the Website:</h4>
-                                <p>Link to be added...</p>
+                                <a>{websiteURL}</a>
                             </div>
                             <div className='modal-description'>
                                 <h4>See Source Code in Github:</h4>

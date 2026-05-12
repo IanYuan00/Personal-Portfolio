@@ -27,6 +27,7 @@ function Projects() {
             carouselImgs: [carouselImg1, carouselImg2, carouselImg3, carouselImg4, carouselImg5],
             modalDescription: "HTML, CSS, JacaScript, React.js, bootstrap",
             githubLink: 'https://github.com/IanYuan00',
+            websiteURL: 'yuangaoportfolio.com',
         },
         {
             title: "Interview Chatbot",
