@@ -69,7 +69,7 @@ function ProjectCard({ title, description, imgUrl, carouselImgs = [], modalDescr
                             </div>
                             <div className='modal-description'>
                                 <h4>Link to the Website:</h4>
-                                <a href='yuangaoportfolio.com'>{websiteURL}</a>
+                                <a href={websiteURL}>{websiteURL}</a>
                             </div>
                             <div className='modal-description'>
                                 <h4>See Source Code in Github:</h4>

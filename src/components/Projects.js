@@ -37,6 +37,7 @@ function Projects() {
             carouselImgs: [projImg1, projImg2, projImg3, projImg4, projImg5, projImg6, projImg7],
             modalDescription: 'Frontend: React.js; Backend: Node.js; Database: PostgreSQL',
             githubLink: 'https://github.com/Pavan-12062000/Interview-Chatbot/',
+            websiteURL: 'https://github.com/IanYuan00',
         },
     ];
 
