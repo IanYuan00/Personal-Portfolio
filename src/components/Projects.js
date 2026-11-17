@@ -13,6 +13,10 @@ import carouselImg2 from '../assets/img/carouselImg2.png';
 import carouselImg3 from '../assets/img/carouselImg3.png';
 import carouselImg4 from '../assets/img/carouselImg4.png';
 import carouselImg5 from '../assets/img/carouselImg5.png';
+import jobtracker1 from '../assets/img/jobtracker1.png';
+import jobtracker2 from '../assets/img/jobtracker2.png';
+import jobtracker3 from '../assets/img/jobtracker3.png';
+import jobtracker4 from '../assets/img/jobtracker4.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -38,6 +42,16 @@ function Projects() {
             modalDescription: 'Frontend: React.js; Backend: Node.js; Database: PostgreSQL',
             githubLink: 'https://github.com/Pavan-12062000/Interview-Chatbot/',
             websiteURL: 'https://github.com/IanYuan00',
+        },
+        {
+            title: "Job Tracker",
+            description: "A full-stack job application tracker with JWT authentication, per-user data isolation, and status-history timelines.",
+            imgUrl: jobtracker3,
+            category: 'fullstack',
+            carouselImgs: [jobtracker1, jobtracker2, jobtracker3, jobtracker4],
+            modalDescription: 'React.js, Node.js, Express, PostgreSQL, Prisma ORM, JWT, Playwright(E2E)',
+            githubLink: 'https://github.com/IanYuan00?tab=repositories',
+            websiteURL: 'https://job-tracker-frontend-ten-sepia.vercel.app',
         },
     ];
 
